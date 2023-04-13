@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: none;
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 30px;
+    background-color: yellow;
+}
+.banner{
+    display: block;
+    position: relative;
+    height: 150px;
+}
+.imagen{
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}
+main{
+    background-color: yellow;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.carpa{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.aceite{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.cogonaut{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.extractor{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.indoor{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.gatito{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.diablo{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ph{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.medidor{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div p{
+    text-align: center;
+}
+.input{
+    text-align: center;
+}
+.value{
+    padding-top: 20px;
+}
+.nombre{
+    padding: 10px 10px 10px 10px;
+}
+.apellido{
+    padding: 10px 10px 10px 10px;
+}
+.correo{
+    padding: 10px 10px 10px 10px;
+}
+.consulta{
+    padding: 50px 10px 50px 10px;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.parrafo{
+    padding-bottom: 10px
+}
+footer{
+    background-color: yellow;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.ubi{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.instagram{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.fb{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.wpp{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.tiktok{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.centro{
+        display: flex;
+        flex-basis: auto;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+}
+.padding{
+    padding-top: 20px;
+}
