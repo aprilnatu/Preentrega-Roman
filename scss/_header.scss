@@ -1,0 +1,31 @@
+header{
+    padding-bottom: 30px; 
+    background-color: $colorsecundario;
+}
+.banner{
+    display: block;
+    position: relative;
+    height: 150px;
+}
+.imagen{
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}

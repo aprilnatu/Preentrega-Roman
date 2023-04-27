@@ -1,202 +1,237 @@
-*{
-    margin: 0;
-    padding: none;
-    box-sizing: border-box;
-}
-header{
-    padding-bottom: 30px;
-    background-color: yellow;
-}
-.banner{
-    display: block;
-    position: relative;
-    height: 150px;
-}
-.imagen{
-    justify-content: center;
+header {
+  padding-bottom: 30px;
+  background-color: #ffff00;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-ul{
-    list-style-type: none;
-    text-align: center;
-    display:flex;
-    justify-content: space-around;
-}
-a{
-    text-decoration: none;
-}
-li{
-    display: inline-block;
-    text-align: center;
-}
-main{
-    background-color: yellow;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-}
-.carpa{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 110px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.aceite{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: center;
-}
-.cogonaut{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-h1{
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-h2{
-    text-align: center;
-    font-size: 35px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.extractor{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 110px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.indoor{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.gatito{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.diablo{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 110px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.ph{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.banner {
+  display: block;
+  position: relative;
+  height: 150px;
 }
 
-.medidor{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.imagen {
+  justify-content: center;
 }
-div p{
-    text-align: center;
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.input{
-    text-align: center;
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
-.value{
-    padding-top: 20px;
+
+a {
+  text-decoration: none;
 }
-.nombre{
-    padding: 10px 10px 10px 10px;
+
+li {
+  display: inline-block;
+  text-align: center;
 }
-.apellido{
-    padding: 10px 10px 10px 10px;
+
+main {
+  background-color: #ffff00;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
-.correo{
-    padding: 10px 10px 10px 10px;
+
+.carpa {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.consulta{
-    padding: 50px 10px 50px 10px;
+
+.aceite {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
 }
-.imagen{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+
+.cogonaut {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.parrafo{
-    padding-bottom: 10px
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
-footer{
-    background-color: yellow;
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-h3{
-    text-align: center;
-    font-size: 35px;
-    padding-top: 30px;
-    margin-bottom: 30px;
+
+.extractor {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.ubi{
-    display: block;
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+
+.indoor {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.instagram{
-    display: flex;
-    width: 100px;
-    height: 100px;
+
+.gatito {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.fb{
-    display: flex;
-    width: 100px;
-    height: 100px;
+
+.diablo {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.wpp{
-    display: flex;
-    width: 100px;
-    height: 100px;
+
+.ph {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.tiktok{
-    display: flex;
-    width: 100px;
-    height: 100px;
+
+.medidor {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.centro{
-        display: flex;
-        flex-basis: auto;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
+
+div p {
+  text-align: center;
 }
-.padding{
-    padding-top: 20px;
+
+.input {
+  background: #000;
 }
+
+.input2 {
+  display: flex;
+  align-items: center;
+}
+
+.value {
+  padding-top: 20px;
+}
+
+.nombre {
+  padding: 10px 10px 10px 10px;
+}
+
+.apellido {
+  padding: 10px 10px 10px 10px;
+}
+
+.correo {
+  padding: 10px 10px 10px 10px;
+}
+
+.consulta {
+  padding: 50px 10px 50px 10px;
+}
+
+.contacto2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pb {
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #ffff00;
+}
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ubi {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instagram {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+.fb {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+.wpp {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+.tiktok {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+.centro {
+  display: flex;
+  flex-basis: auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.padding {
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

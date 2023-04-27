@@ -1,0 +1,46 @@
+footer {
+    background-color: $colorsecundario;
+}
+h3 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.ubi {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.instagram {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.fb {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.wpp {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.tiktok {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.centro {
+    display: flex;
+    flex-basis: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.padding {
+    padding-top: 20px;
+}
