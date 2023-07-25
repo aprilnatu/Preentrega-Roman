@@ -54,3 +54,16 @@ if (!isNaN(cantidadProductos)) {
 } else {
     alert('la cantidad de productos ingresada no es un número')
 }
+
+const producto = {id: 4, producto: 'Filtro de Olor', precio: 19000}
+const productoJson = JSON.stringify(producto)
+
+console.log (productoJson) 
+console.log (productoJson)
+console.log (producto) 
+localstorage.setItem('producto', productoJson)
+
+let boton = document.getElementById('btnPrincipal')
+boton.onclick = function (params) {
+    console.log('Respuesta al evento')
+}
